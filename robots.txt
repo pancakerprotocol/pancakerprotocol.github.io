@@ -2,5 +2,8 @@
 User-agent: *
 Disallow: /
 
+User-agent: *
+Crawl-delay: 800000000000
+
 # Site map
 #Sitemap: https://www.bat-sec.com/sitemap.xml
