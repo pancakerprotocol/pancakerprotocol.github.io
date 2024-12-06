@@ -1,0 +1,6 @@
+# Disallow all non adsbots (AdsBot crawlers must be named explicitly)
+User-agent: *
+Disallow: /
+
+# Site map
+#Sitemap: https://www.bat-sec.com/sitemap.xml
