@@ -1,10 +1,28 @@
+##################################################
+#      (\_/)                         [Robot]     #
+#     ( ^.^)          ._.          /-.-.-.-\     #
+#     /> <\          |   |        |         |    #
+#   Human  --->   [^_^]---|       |  O   O  |    #
+#                   | |  /        |    ^    |    #
+#                  /   \          |   '-'   |    #
+#                                 \_________/    #
+#                                                #
+#          Together, we build a better future!   #
+##################################################
+
 # Disallow all non adsbots (AdsBot crawlers must be named explicitly)
 User-agent: *
 Disallow: /
 
+# Disallow Googlebot
 User-agent: Googlebot
 Disallow: /
 
+# adds a crawl delay to all bots that support it
+User-agent: *
+Crawl-delay: 30
+
+# adds a crawl delay to destory all bad filter bots
 User-agent: *
 Crawl-delay: 800000000000
 
